@@ -1,4 +1,4 @@
-module github.com/Nikita213-hub/simple_tcp_chat/chat_proto
+module github.com/Nikita213-hub/chat_proto
 
 go 1.23.5
 

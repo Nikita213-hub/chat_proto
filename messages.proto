@@ -2,6 +2,9 @@ syntax = "proto3";
 
 package message;
 
+option go_package = "./chat_proto";   
+
+
 message ChatMessage {
     int32 sender = 1;
     string content = 2;

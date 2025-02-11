@@ -5,7 +5,7 @@ package message
 
 import (
 	fmt "fmt"
-	proto "google.golang.org/protobuf/proto"
+	proto "github.com/golang/protobuf/proto"
 	math "math"
 )
 

@@ -17,3 +17,11 @@ message ErrorMessage {
 message Notification {
     string content = 1;
 }
+
+message WrapperMessage {
+    oneof msg {
+        ChatMessage cm = 1;
+        ErrorMessage em = 2;
+        Notification nm = 3;
+    }
+}

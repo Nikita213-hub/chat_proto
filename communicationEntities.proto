@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package message;
+package communicationEntities;
 
 option go_package = "./chat_proto";   
 
@@ -13,3 +13,7 @@ message ChatMessage {
 message ErrorMessage {
     string content =1;
  }
+
+message Notification {
+    string content = 1;
+}

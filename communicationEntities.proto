@@ -4,9 +4,13 @@ package communicationEntities;
 
 option go_package = "./chat_proto";   
 
+message User {
+    int32 id = 1;
+    string name = 2;    
+}
 
 message ChatMessage {
-    int32 sender = 1;
+    User sender = 1;
     string content = 2;
 }
 
